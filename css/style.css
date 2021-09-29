@@ -1,6 +1,46 @@
-.color{
-    background-color: #C6E6F0;
+:root {
+    font-family: 'Raleway', sans-serif;
+   --header-color:#16121280;
+   --dark-blue:#2b354e ;
+   --lite-blue:#C6E6F0;
+   --white:#fff;
+   --black:#000;         
+   --grey:#898082;
+}
+
+* {
+    box-sizing: border-box;
+}
+.head-in{
+    background-color: var(--lite-blue) ;
+    margin: 0;
+    
 }
 .color-header{
-    background-color:  #2b354e ;
+    color:black;
+}
+.header-info{
+    background-image: url(../img/mainBaner.png);
+    position: relative;
+    height: 50vh;
+    background-size: cover;
+    min-height: 640px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    background-position: center;
+    background-attachment: fixed;
+    padding:  25px;
+    
+}
+.container{
+    text-align: center;
+     
+}
+.moving-logo{
+    display: flex;
+    padding: 35px;
+    text-align: center;
+}
+.logo-stor{
+    padding: 10px;
 }
