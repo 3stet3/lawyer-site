@@ -1,11 +1,12 @@
 :root {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
    --header-color:#16121280;
    --dark-blue:#2b354e ;
    --lite-blue:#C6E6F0;
    --white:#fff;
    --black:#000;         
    --grey:#898082;
+   --nev-black:#121013;
 }
 
 * {
@@ -27,37 +28,40 @@
     background-size: cover;
     min-height: 640px;
     color: #fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-position: center;
     background-attachment: fixed;
     padding:  25px;
     
 }
 .head-locotn{
-    background-color: var(--dark-blue);
+    background-color:var(--nev-black);
     display: flex;
     color: #fff;
-    padding: 2px 10px 10px 10px;
+    padding: 10px 150px ;
     text-align: center;
+    
 }
 .info-head{
     align-items: center;
     padding: 5px 50px;
     display: grid;
-    grid-template-columns:repeat(1 , 3fr);
+    grid-template-columns:repeat(1 , 5fr);
     margin: 0;
 }
 .list-services{
-    background-color: var(--dark-blue);
+    
+    background-color: var(--nev-black);
+    z-index: 2;
     text-align: center;
     padding: 10px;
     
 }
-.button{
+.button{ 
     color: black;
     font-size: 25px;
     width: 200px;
-    background: yellow;
+    background: #B5DEFF;
     padding: 0 15px;
     float: center;
     border-radius: 25px;
@@ -85,4 +89,11 @@ h1{
 }
 .logo-stor{
     padding: 10px;
+}
+.connexion{
+    text-align: center;
+    
+}
+.conect{
+    display: flex;
 }
