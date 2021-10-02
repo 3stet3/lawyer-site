@@ -39,8 +39,10 @@
     display: flex;
     color: #fff;
     padding: 10px 150px ;
-    text-align: center;
-    
+    grid-gap: 50px;
+    align-items: flex-start;
+    text-align: start;
+    justify-content: space-evenly;
 }
 .info-head{
     align-items: center;
@@ -48,6 +50,9 @@
     display: grid;
     grid-template-columns:repeat(1 , 5fr);
     margin: 0;
+    display: flex;
+
+    
 }
 .list-services{
     
@@ -82,10 +87,19 @@ h1{
     text-align:center;
     padding: 10px;
 }
+.pick{
+    padding: 0 40px;
+    text-align: center;
+}
 .moving-logo{
     display: flex;
     padding: 35px;
     text-align: center;
+    align-items: flex-start;
+    text-align: start;
+    justify-content: space-evenly;
+    
+    
 }
 .logo-stor{
     padding: 10px;
@@ -96,6 +110,14 @@ h1{
 }
 .conect{
     display: flex;
+    padding: 10px 25px;
+}
+.containers{
+    background-color: var(--dark-blue);
+    text-transform: none;
+    letter-spacing: normal;
+    overflow-wrap: break-word;
+    margin: 0 20px;
 }
 .foter{
     background-color: var(--nev-black);
