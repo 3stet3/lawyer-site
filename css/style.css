@@ -38,20 +38,28 @@
     background-color:var(--nev-black);
     display: flex;
     color: #fff;
-    padding: 10px 150px ;
-    grid-gap: 50px;
+    /*padding: 10px 150px ;*/
+    grid-gap: 10px;
     align-items: flex-start;
     text-align: start;
     justify-content: space-evenly;
+    
 }
 .info-head{
     align-items: center;
-    padding: 5px 50px;
+    padding: 5px 0px;
     display: grid;
-    grid-template-columns:repeat(1 , 5fr);
+    color:#fff ;
+    text-decoration: none;
+    /*grid-template-columns:repeat(1 , 5fr);*/
+    
     margin: 0;
     display: flex;
 
+    
+}
+.icons-head{
+    justify-self: stretch;
     
 }
 .list-services{
@@ -93,7 +101,7 @@ h1{
 }
 .moving-logo{
     display: flex;
-    padding: 35px;
+    padding: 45px;
     text-align: center;
     align-items: flex-start;
     text-align: start;
