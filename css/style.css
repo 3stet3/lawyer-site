@@ -85,6 +85,7 @@
 }
 .container{
     text-align: center;
+    
      
 }
 h1{
@@ -121,11 +122,13 @@ h1{
     padding: 10px 25px;
 }
 .containers{
-    background-color: var(--dark-blue);
+    border: 1px solid #2b354e ;
+    border-radius: 25px;
     text-transform: none;
     letter-spacing: normal;
     overflow-wrap: break-word;
     margin: 0 20px;
+    padding: 15px 55px 10px 50px;
 }
 .foter{
     background-color: var(--nev-black);
