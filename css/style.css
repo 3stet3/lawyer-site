@@ -38,11 +38,12 @@
     background-color:var(--nev-black);
     display: flex;
     color: #fff;
-    /*padding: 10px 150px ;*/
+    padding: 10px 150px ;
     grid-gap: 10px;
     align-items: flex-start;
     text-align: start;
     justify-content: space-evenly;
+    
     
 }
 .info-head{
@@ -52,7 +53,6 @@
     color:#fff ;
     text-decoration: none;
     /*grid-template-columns:repeat(1 , 5fr);*/
-    
     margin: 0;
     display: flex;
 
@@ -60,7 +60,7 @@
 }
 .icons-head{
     justify-self: stretch;
-    
+    margin: 0;
 }
 .list-services{
     
@@ -121,14 +121,37 @@ h1{
     display: flex;
     padding: 10px 25px;
 }
+.containers1{
+    border: 1px solid #2b354e ; 
+    border-radius: 25px;
+    text-transform: none;
+    letter-spacing: normal;
+    margin: 10px ;
+    padding: 15px 25px 10px 20px;
+    font-size: 14px;
+}
+p{
+    margin-bottom: 1rem;
+}
 .containers{
     border: 1px solid #2b354e ;
     border-radius: 25px;
     text-transform: none;
     letter-spacing: normal;
     overflow-wrap: break-word;
-    margin: 0 20px;
+    margin: 10px ;
     padding: 15px 55px 10px 50px;
+    font-size: 14px;
+    
+}
+.details{
+    text-align: left;
+}
+.info{
+    border: 1px solid #2b354e ;
+    border-radius: 25px;
+    padding: 10px 10px;
+    margin: 60px 150px;
 }
 .foter{
     background-color: var(--nev-black);
