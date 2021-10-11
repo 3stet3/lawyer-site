@@ -3,17 +3,19 @@
    --header-color:#16121280;
    --dark-blue:#2b354e ;
    --lite-blue:#C6E6F0;
+   --liite:#5c6f9e;
    --white:#fff;
    --black:#000;         
    --grey:#898082;
    --nev-black:#121013;
+   --new-blue:#484848;
 }
 
 * {
     box-sizing: border-box;
 }
 .head-in{
-    background-color: var(--lite-blue) ;
+    background-color: var(--new-blue) ;
     margin: 0;
     
     
@@ -74,7 +76,7 @@
     color: black;
     font-size: 25px;
     width: 200px;
-    background: #B5DEFF;
+    background: var(--lite-blue);
     padding: 0 15px;
     float: center;
     border-radius: 25px;
@@ -115,6 +117,7 @@ h1{
 }
 .connexion{
     text-align: center;
+    color: #fff;
     
 }
 .conect{
@@ -122,7 +125,7 @@ h1{
     padding: 10px 25px;
 }
 .containers1{
-    border: 1px solid #2b354e ; 
+    border: 1px solid var(--lite-blue) ; 
     border-radius: 25px;
     text-transform: none;
     letter-spacing: normal;
@@ -134,7 +137,7 @@ p{
     margin-bottom: 1rem;
 }
 .containers{
-    border: 1px solid #2b354e ;
+    border: 1px solid var(--lite-blue) ;
     border-radius: 25px;
     text-transform: none;
     letter-spacing: normal;
@@ -148,10 +151,26 @@ p{
     text-align: left;
 }
 .info{
-    border: 1px solid #2b354e ;
-    border-radius: 25px;
+    text-align: center;
     padding: 10px 10px;
-    margin: 60px 150px;
+    margin: 60px 550px 60px 250px;
+    color: #fff;
+}
+.text{
+    border: 1px solid var(--lite-blue) ;
+    border-radius: 25px;
+    overflow-wrap: break-word;
+    text-align: left;
+    font-size: 16px;
+    margin: 10px 30px;
+    
+}
+.p{
+    padding: 10px ; 
+}
+.info-logo{
+    background-color: #484848;
+    color: #fff;
 }
 .foter{
     background-color: var(--nev-black);
