@@ -41,10 +41,11 @@
     display: flex;
     color: #fff;
     padding: 10px 150px ;
-    grid-gap: 10px;
+    grid-gap: 50px;
     align-items: flex-start;
     text-align: start;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     
     
 }
@@ -81,6 +82,9 @@
     float: center;
     border-radius: 25px;
     text-decoration: none;
+}
+.big-but{
+    font-size: 35px;
 }
 .lok{
     margin: 10px 40px;
@@ -123,6 +127,7 @@ h1{
 .conect{
     display: flex;
     padding: 10px 25px;
+    justify-content: center;
 }
 .containers1{
     border: 1px solid var(--lite-blue) ; 
@@ -171,8 +176,60 @@ p{
 .info-logo{
     background-color: #484848;
     color: #fff;
+    padding: 40px;
+}
+.our-advantage{
+    display: flex;
+    padding: 40px;
+    text-align: right;
+    justify-content: center;
+}
+.advantage{
+    margin: 20px;
+    overflow-wrap: break-word;
+    text-align: center;
 }
 .foter{
     background-color: var(--nev-black);
     color: var(--lite-blue);
+}
+.footer-button{
+    padding: 20px 40px;
+    text-align: center;
+    
+}
+.foter-block{
+    display: flex;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+
+}
+.f-button{
+    margin: 0 100px;
+}
+.foter-b{
+    padding: 40px 40px ;
+}
+h3{
+    text-align: center;
+    font-size: 19px;
+}
+.main-logo{
+    text-align: center;
+    padding: 40px 40px;
+}
+.f-text{
+    text-align: left;
+    margin: 0 ;
+    font-size: 20px;
+}
+.f2-text{
+    text-align: right;
+    margin: 0;
+    font-size: 20px;
+    
 }
