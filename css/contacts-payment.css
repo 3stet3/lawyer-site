@@ -1,0 +1,132 @@
+:root {
+    font-family: 'Montserrat', sans-serif;
+   --header-color:#16121280;
+   --dark-blue:#2b354e ;
+   --lite-blue:#C6E6F0;
+   --liite:#5c6f9e;
+   --white:#fff;
+   --black:#000;         
+   --grey:#898082;
+   --nev-black:#121013;
+   --new-blue:#484848;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--new-blue);
+}
+.connexion1{
+    padding: 10px;
+    text-align: center;
+    color: seashell;
+}
+h2{
+   margin-bottom: 10px;
+}
+h3{
+    color:white;
+    margin: 10px;
+}
+.containera{
+    border: 1px solid var(--black);
+    margin: 20px;
+    background-image: url(../img/mainBaner.png);
+    position: relative;
+    background-size: cover;
+    overflow-wrap: break-word;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+.phologo{
+    display: flex;
+}
+.deta{
+    margin: 5px;
+}
+.p-tet{
+    margin: 5px;
+    text-align: left;
+}
+.p-tet2{
+    font-weight: bold;
+}
+@media(min-width: 600px){
+    .conect1{
+        display: flex;
+        padding: 10px 25px;
+        justify-content: center;
+    }
+    .container{
+        overflow-wrap: break-word;
+        margin: 10px ;
+        padding: 15px;
+    }
+    .con{
+        padding: 0 20px;
+    }
+    .deta{
+        margin: 20px;
+    }
+    h2{
+        padding: 30px;
+    }
+}
+.pay{
+    padding: 30px;
+}
+.payment{
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+}
+
+.cashless{
+    border: 1px solid var(--lite-blue);
+    border-radius: 25px;
+    padding: 20px;
+    text-align: right;
+    margin: 10px 60px;
+}
+.money{
+    text-align: left;
+    color: whitesmoke;
+    text-align: 14px;
+    padding: 10px;
+}
+.cart{
+    text-align: left;
+    color: whitesmoke;
+    text-align: 14px;
+    padding: 5px;
+}
+@media(min-width: 600px){
+    .bank{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .pay{
+        padding: 50px 100px;
+    }
+    .cashless{
+        border: 1px solid var(--liite);
+    }
+    .payh3{
+        text-align: 20px;
+        text-align: left;
+        margin-left: 56px;
+    }
+    .money{
+        margin-right: 450px;
+    }
+}
+
+.footer{
+    background-color: var(--nev-black);
+    
+}

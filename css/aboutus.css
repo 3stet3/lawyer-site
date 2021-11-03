@@ -1,0 +1,68 @@
+:root {
+    font-family: 'Montserrat', sans-serif;
+   --header-color:#16121280;
+   --dark-blue:#2b354e ;
+   --lite-blue:#C6E6F0;
+   --liite:#5c6f9e;
+   --white:#fff;
+   --black:#000;         
+   --grey:#898082;
+   --nev-black:#121013;
+   --new-blue:#484848;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--new-blue);
+}
+.about{
+    margin: 25px;
+    padding: 15px;
+}
+.h3about{
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+
+}
+.tex1{
+    margin: 10px;
+    padding: 15px;
+    background-color: var(--nev-black);
+    border: 1px solid var(--lite-blue);
+    color: var(--lite-blue);
+    padding-bottom: 15px;
+    border-radius: 25px;   
+}
+
+@media(max-width: 600px){
+    .tex1{
+        margin-bottom: -333px;   
+    }
+}
+@media(min-width: 600px){
+    .tex1{
+        text-align: center;
+        padding: 30px;
+        font-size: 25px;
+        position: relative;
+        z-index: 3;
+    }
+    .Googlemap{
+        margin: 10px 440px;
+        text-align: center;
+    }  
+    .our1{
+        padding: 150px;
+        display: flex;
+        padding: 60px;
+    }  
+}
+
+
+

@@ -1,0 +1,61 @@
+:root {
+    font-family: 'Montserrat', sans-serif;
+   --header-color:#16121280;
+   --dark-blue:#2b354e ;
+   --lite-blue:#C6E6F0;
+   --liite:#5c6f9e;
+   --white:#fff;
+   --black:#000;         
+   --grey:#898082;
+   --nev-black:#121013;
+   --new-blue:#484848;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.services-logo{
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+      
+}
+@media(min-width: 600px){
+    .services-logo{
+        text-align: center;
+        margin: 20px;
+        padding: 25px;
+        display: flex;  
+    }
+}
+.servi{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid var(--nev-black);
+    color: var(--black);
+    
+    margin: 10px;
+    background-color: var(--liite);
+    padding: 5px;
+    background-color: var(--lite-blue);
+}
+.servi:hover {color: rgba(106, 161, 235, 0.938);}
+
+.pick{
+    border: 1px solid var(--nev-black);
+    background-color: var(--black);
+    border-radius: 25px;
+}
+.area2{
+    color:black;
+    font-size: 25px;
+    text-transform: none;
+    text-decoration: none;
+}
+.area2:hover {color: rgba(17, 68, 207, 0.938);}
+.footer{
+    background-color: var(--nev-black);
+}
